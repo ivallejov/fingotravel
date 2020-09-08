@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header{
+	background: #ec428d;
+    padding: 0px 0;
+}
+
+header.sticky{ 
+	-webkit-box-shadow: 0px 2px 10px -2px rgba(0, 0, 0, 0.41);
+	-moz-box-shadow:0px 2px 10px -2px rgba(0, 0, 0, 0.41);
+	box-shadow:0px 2px 10px -2px rgba(0, 0, 0, 0.41);
+	background-color:#42b0f0; 
+    padding-bottom:0;
+    color:#fff;
+}
+
+.sticky .main-menu > ul > li > a { color: #fff; }
+.sticky .main-menu > ul > li:hover > a {color: #fff;}
+
+#top_line{
+    background: #42b0f0;
+    padding: 5px;
+}
+
+h2 span, h3 span, h4 span, h5 span, h6 span{color: #ec428d;}
+
+a.btn_1, .btn_1{
+	background: #ec428d;
+}
+
+.social-main-menu {
+    text-align: end;
+    top: 10px;
+}
+/* Body */
+.ribbon_3.popular span {
+	background: linear-gradient(#fff215 0%, #cfc616 100%);
+    color:#ec428d;
+}
+
+.ribbon_3 span {
+    background: linear-gradient(#b8fa45 0%, #9ccb49 100%);
+    color:#ec428d;
+}
+
+/* Footer */
+footer {
+	background: #ec428d url(../img/pattern.png) repeat 0 0;
+	color: #fff;
+	padding: 30px 0 10px 0;
+}
+
+footer h3 {
+	color: #fff215;
+}
+
+a#phone,
+a#email_footer {
+	color: #fff;
+}
+
+footer a {
+	color: #fff;
+}
+
+footer li a:hover {
+	color: #9ccb49;
+}
+
+a.btn_2, .btn_2 {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color:#fff;
+	background: #9ccb49;
+	cursor: pointer;
+	padding: 7px 20px;
+	display: inline-block;
+	outline: none;
+	font-size:13px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-weight:bold;
+}
+a.btn_2.green, .btn_2.green  {background: #83c99f;}
+
+a.btn_2.white, .btn_2.white  {background: #fff; color:#e04f67;}
+a.btn_2.white:hover, .btn_2.white a:hover  {background: #333; color:#fff;}
+
+a.btn_2.outline,.btn_2.outiline, input .btn_2.outiline{
+	color:#555;
+	background: none;
+	border:2px solid #555;
+	padding: 5px 18px;
+}
+a.btn_2.outline:hover,.btn_2.outiline:hover, input .btn_2.outiline:hover{
+	color:#fff;
+	background:#e04f67;
+	border:2px solid #e04f67;
+}
+
+a.btn_2.medium, .btn_2.medium  {
+	padding: 10px 25px;
+	font-size:14px;
+}
+a.btn_2.small, .btn_2.small  {
+	padding: 5px 8px;
+	font-size:10px;
+	line-height:9px;
+	text-transform:none;
+	color:#fff !important;
+}
+a.btn_2:hover, .btn_2:hover {
+	background: #333;
+}
+
+#social_footer p {
+	color: #fff;
+}
+
